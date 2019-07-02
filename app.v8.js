@@ -27,6 +27,17 @@ function getText() {
         });
 }
 
+// the above can be written shorter with arrow functions
+
+// function getText() {
+//       fetch('test.txt')
+//           .then(res => res.text())
+//           .then(data => {
+//               console.log(data);
+//               document.getElementById('output').innerHTML = data;
+//           })
+//           .catch(err => console.log(err));
+//   }
 
 
 // Get local JSON data 
